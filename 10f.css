@@ -61,6 +61,7 @@ h1{
     margin-bottom: 0px;
     margin-right: 40px;
     padding-right: 30px;
+    overflow: hidden;
   }
   h1{
     white-space: nowrap;
