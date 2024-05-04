@@ -9,31 +9,31 @@ button{
   color: white;
   font-family: Arial;
   /* font-weight: bold; */
-  font-size: 50px;
+  font-size: 25px;
   cursor: pointer;
   border: none;
-  height: 120px;
-  width: 120px;
-  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
   margin-right: 5px;
 }
 
 .operations{
   background-color: rgb(44, 144, 181);
-  font-size: 50px;
+  font-size: 25px;
   color: white;
 }
 
 .clear-button{
-  font-size: 39px;
+  font-size: 18px;
   background-color: lightcoral;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .visible{
   color: white;
-  font-size: 65px;
+  font-size: 45px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
@@ -43,6 +43,30 @@ h1{
   font-size: 300%;
 }
 
-#title{
-  margin-left: 100px;
+/* .bigbox{
+  padding-left: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+} */
+
+@media only screen and (max-width: 600px){
+  button{
+    height: 88px;
+    width: 88px;
+    border-radius: 44px;
+  }
+  .bigbox{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    padding-right: 30px;
+  }
+  h1{
+    white-space: nowrap;
+    font-size: 35px;
+  }
+  #title{
+    margin-left: 0px;
+  }
 }
