@@ -1,6 +1,7 @@
 body{
   background-color: black;
-  margin-left: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 button{
@@ -8,23 +9,23 @@ button{
   color: white;
   font-family: Arial;
   /* font-weight: bold; */
-  font-size: 25px;
+  font-size: 50px;
   cursor: pointer;
   border: none;
-  height: 60px;
-  width: 60px;
+  height: 120px;
+  width: 120px;
   border-radius: 60px;
   margin-right: 5px;
 }
 
 .operations{
   background-color: rgb(44, 144, 181);
-  font-size: 25px;
+  font-size: 50px;
   color: white;
 }
 
 .clear-button{
-  font-size: 17px;
+  font-size: 39px;
   background-color: lightcoral;
   color: black;
   font-weight: bold;
@@ -32,17 +33,16 @@ button{
 
 .visible{
   color: white;
-  font-size: 45px;
+  font-size: 65px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
 h1{
   color: rgb(44, 144, 181);
+  font-size: 300%;
 }
 
 #title{
   margin-left: 100px;
 }
-
-
